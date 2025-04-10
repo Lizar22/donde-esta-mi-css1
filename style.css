@@ -50,7 +50,10 @@ img {
         /* height: 40px; */
     flex-direction: row;
     justify-content: center;
-     align-items: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 6px;
+    border-color: #F1F1F1;
    
 }
 
@@ -66,6 +69,9 @@ img {
 .fb-btn {
     width: 50px;
     height: 40px;
+    background-color: white;
+    border-radius: 6px;
+    border-color: #F1F1F1;
 }
 
 .email-login {
@@ -76,6 +82,13 @@ img {
 .email-login label {
     text-align: left;
     font-weight: 500;
+    color: #A6A5A6;
+}
+
+.email-login input {
+    background-color: white;
+    border-radius: 6px;
+    border-color: #F1F1F1;
 }
 
 .cta-btn {
